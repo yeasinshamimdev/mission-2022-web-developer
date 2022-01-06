@@ -60,24 +60,24 @@ section{
 }
 .mission-area{
     width: 300px;
-    height: 300px;
+    height: 350px;
     margin-right: 30px;
-    padding-left: 10px;
+    padding: 10px;
     border-radius: 30px;
     background-color: rgba(120, 247, 251, 0.24);
 }
 .vision-area{
     width: 300px;
-    height: 300px;
+    height: 350px;
     margin-right: 30px;
-    padding-left: 10px;
+    padding: 10px;
     border-radius: 30px;
     background-color: rgba(255, 124, 233, 0.24);
 }.goals-area{
     width: 300px;
-    height: 300px;
+    height: 350px;
     margin-right: 30px;
-    padding-left: 10px;
+    padding: 10px;
     border-radius: 30px;
     background-color: rgba(140, 120, 251, 0.26);
 }
@@ -85,7 +85,7 @@ section{
     width: 100%;
 }
 .vision-img img{
-    width: 30%;
+    width: 50%;
 }
 /* Mission Section End */
 
@@ -135,7 +135,7 @@ section{
 
 /*form section start*/
 .form-section{
-    width: 300px;
+    width: 500px;
     height: 400px;
     margin: auto;
     padding: 20px 40px;
@@ -153,10 +153,8 @@ section{
     border-radius: 10px;
     border: 1px solid rgba(12, 240, 240, 0.287);
 }
-.form-section input:active{
-    border: none;
-}
 .form-section textarea{
+    width: 90%;
     border-radius: 10px;
     border: 1px solid rgba(12, 240, 240, 0.287);
 }
