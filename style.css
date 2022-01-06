@@ -132,6 +132,49 @@ section{
     width: 80%;
 }
 /* Our community end*/
+
+/*form section start*/
+.form-section{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(119, 119, 119, 0.342);
+}
+.form-section:hover{
+    box-shadow: 10px 10px 40px rgba(138, 111, 129, 0.712);
+}
+.form-section input{
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(12, 240, 240, 0.287);
+}
+.form-section input:active{
+    border: none;
+}
+.form-section textarea{
+    border-radius: 10px;
+    border: 1px solid rgba(12, 240, 240, 0.287);
+}
+.form-section button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: indigo;
+    background-color: #08df08;
+    border-radius: 15px;
+    border: none;
+}
+.form-section button:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 40px rgba(34, 241, 34, 0.712);
+}
+/*form section end*/
+
 /*footer start*/
 footer{
     width: 100%;
@@ -139,6 +182,6 @@ footer{
     text-align: center;
     padding: 15px 0px 10px 0px;
     color: white;
-    background-color: black;
+    background-image: linear-gradient(gray, black);
 }
 /*footer end*/
