@@ -21,16 +21,16 @@ section{
     border-radius: 2px;
 }
 .blue-color{
-    color: blue;
+    color: #ff5100;
 }
 .know-more-button{
     text-decoration: none;
     font-size: 20px;
-    padding: 8px 20px;
+    padding: 7px 20px;
     border-radius: 5px;
     line-height: normal;
     color: white;
-    background-color: palegreen 
+    background-color: #00d9ff 
 }
 .header-image{
     width: 40%;
@@ -38,6 +38,9 @@ section{
 }
 .header-image img{
     width: 70%;
+}
+.scorll-down{
+    margin-top: 50px;
 }
 /*Header Section End */
 
@@ -85,3 +88,57 @@ section{
     width: 30%;
 }
 /* Mission Section End */
+
+/*developer section start*/
+.develop-site{
+    display: flex;
+    background-image: url(images/shape/shape-1.png);
+    background-repeat: no-repeat;
+    background-size:250px 250px;
+}
+.developer-image{
+    width: 50%;
+    padding-left: 10%;
+}
+.developer-image img{
+    width: 80%;
+}
+.developer-content{
+    width: 50%;
+    padding-right: 5%;
+}
+.developer-content h1{
+    font-size: 40px;
+}
+/* Develop section end*/
+
+/*Our community start*/
+.project-section{
+    display: flex;
+    width: 100%;
+}
+.project-content{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.project-content h1{
+    font-size: 40px;
+}
+.project-image{
+    width: 50%;
+}
+.project-image img{
+    width: 80%;
+}
+/* Our community end*/
+/*footer start*/
+footer{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+    color: white;
+    background-color: black;
+}
+/*footer end*/
